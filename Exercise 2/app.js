@@ -1,13 +1,20 @@
-// Exercise One
+// Exercise Two
 
-let x = 7;
-let y = 3;
-
-console.log("Addition",x+y);
-console.log("Substraction",x-y);
-console.log("Multiplication",x*y);
-console.log("Division",x/y);
-console.log("Reminder",x%y);
-console.log("X Increment",x++);
-console.log("Y Decrement",y--);
-
+let a = 15;
+let b = "15";
+// Equal
+console.log(a == b);  
+// strictly equal
+console.log(a === b); 
+// Not equal
+console.log(a != b);  
+// strictly not equal
+console.log(a !== b);
+// Greater than
+console.log(a > b);   
+// Less than
+console.log(a < b);   
+// Greater or equal
+console.log(a >= b); 
+// Less or equal
+console.log(a <= b); 
