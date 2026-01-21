@@ -14,6 +14,9 @@ function changeImage(){
     const border=prompt("Choose Your Border")
     image.style.border=`5px solid ${border}`;
 
+    const borderRadius=prompt("Choose Your borderRadius")
+    image.style.borderRadius=borderRadius;
+
     const padding=prompt("Choose Padding Size");
     image.style.padding=padding;
 
