@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 36</title>
+
+    <style>
+body{
+    font-family: sans-serif;
+    background-color: rgb(245, 245, 245);
+}
+
+        #colorPreview{
+            display: flex;
+            flex-direction: column;
+            margin: 20px;
+            text-align: center;
+            justify-content: center;
+            border: 2px solid black;
+            width: 200px;
+            height: 200px;
+            border-radius: 10px;
+        }
+
+        #exercise36{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: none;
+        }
+
+        button{
+            padding: 10px 15px;
+            background-color: rgb(0, 105, 0);
+            border: none;
+            border-radius: 5px;
+            color: white;
+            cursor: pointer;
+        }
+
+        button:hover{
+            background-color:rgb(0, 54, 0) ;
+        }
+    </style>
+
+
+
+</head>
+<body>
+<div id="exercise36">
+    <h1>Interactive Color Picker</h1>
+    <label for="colorPick">Choose Color:</label>
+    <input type="color" id="colorPick" >
+
+    <div id="colorPreview"><p id="preview">Color Preview</p></div>
+
+    <h2>Color History</h2>
+    <ol id="colorList"></ol>
+
+    <button id="clearHistory" type="submit">Clear History</button>
+</div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
